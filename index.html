@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>Academic Project Page</title>
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">Skillhaven Town: Development of Expertise -A Framework for Skill Development in Intelligent Agents</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a href="https://tongclass.ac.cn/author/houhei-lam/" target="_blank">Hou Hei Lam</a><sup>*</sup>,</span>
+                <span class="author-block">
+                  <a href="https://www.zlz.link/" target="_blank">Zhenliang Zhang</a>,</span>
+                  </span>
+                  </div>
+
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block">Tsinghua University, Beijing Institute for General Artifical Intelligence</span>
+                    <span class="eql-cntrb"><small><br><sup>*</sup>Corresponding Authors</small></span>
+                  </div>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Teaser video-->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <video poster="" id="tree" autoplay controls muted loop height="100%">
+        <!-- Your video here -->
+        <source src="static/videos/banner_video_demo.mp4"
+        type="video/mp4">
+      </video>
+      <h2 class="subtitle has-text-centered">
+        In this scenario, there are three agents in Skillhaven Town, each employing a different strategy to select the tasks they wish to complete. They travel to various locations to train different skills required to fulfill their chosen tasks. Ultimately, the agents develop distinct skills and pursue different professions.
+      </h2>
+    </div>
+  </div>
+</section>
+<!-- End teaser video -->
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            This project introduces Skillhaven Town, a simulated environment designed to explore skill development and decision-making in intelligent agents. In Skillhaven Town, agents adopt various strategies to complete tasks, train skills, and evolve into specific professions based on their developed abilities. The town features five core skills—Teaching, Crafting, Farming, Medicine, and Hunting—each governed by an independent Experience Points (XP) system that enhances agent satisfaction through training. Agents can progress into roles such as Educator, Herbalist, or Hunter by meeting specific skill requirements. The environment also incorporates uncertainty and skill mismatches in tasks, mirroring real-world complexities. Agent personalities, influenced by the Five-Factor Model, play a significant role in shaping their skill affinities and decision-making processes. Using a reinforcement learning-based Balanced Selection Mechanism, agents dynamically adapt their strategies to optimize task selection and training, resulting in diverse and human-like skill development paths. This study provides valuable insights into the mechanisms of skill evolution and offers a theoretical foundation for future intelligent agent skill development systems.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract --> 
+
+<!-- Skillhaven Town Overview -->
+<section class="section hero">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Skillhaven Town Overview</h2>
+        <div class="content has-text-justified">
+          <p>
+            Skillhaven Town is a simulated environment designed to study skill development and decision-making in intelligent agents. The primary objective of this town is to enable agents to develop various skills through training and complete tasks to enhance their skills, reputation, and satisfaction. The ultimate goal is for agents to maximize their reputation and satisfaction, reflecting their survival objectives.<br>
+            <h3 class="title is-4">Core Skills and Experience Points System</h3>
+            The town features five core skills, each described by an independent Experience Points (XP) system that agents can enhance through time investment in training, which subsequently increases their satisfaction. The five core skills are:<br>
+            <ul>
+                <li><strong>Teaching:</strong> Knowledge-based, with low physical demand.</li>
+                <li><strong>Crafting:</strong> Involves precise work, with low physical demand.</li>
+                <li><strong>Farming:</strong> Requires physical strength but has low knowledge requirements.</li>
+                <li><strong>Medicine:</strong> Combines knowledge and care with moderate physical demands.</li>
+                <li><strong>Hunting:</strong> Involves patience and strength with moderate knowledge needs.</li>
+            </ul>
+            Skill progression depends on the time spent training, and accumulated experience points determine the agent’s proficiency in each skill.<br>
+            
+            <h3 class="title is-4">Major Professions and Skill Requirements</h3>
+            Agents can develop into one of three professions based on their skill levels, each requiring a combination of specific skills:<br>
+            <ul>
+              <li><strong>Educator:</strong> Requires “Teaching” and “Crafting” skills at level 3 or above.</li>
+              <li><strong>Herbalist:</strong> Requires “Farming” and “Medicine” skills at level 3 or above.</li>
+              <li><strong>Hunter:</strong> Requires “Hunting” and “Crafting” skills at level 3 or above.</li>
+            </ul>
+            <img src="static/images/professions.png" alt="Three Professions" style="display: block; margin: auto; width: 60%; margin-bottom: 10px;">
+            These professions automatically activate once the agent’s relevant skills meet the required levels, opening up new task opportunities and application scenarios.<br>
+            
+            <h3 class="title is-4">Task Design and Uncertainty</h3>
+            Tasks are the primary method for agents to enhance their skills, reputation, and satisfaction. There are always 3-5 tasks available in the town, each requiring 1-2 skills. Key features of tasks include:<br>
+            <ul>
+              <li><strong>Time Cost:</strong> Each task requires a certain amount of time to complete. Upon completion, agents receive unknown rewards in reputation, satisfaction, and experience points, simulating the unpredictability of real-world work.</li>
+              <li><strong>Skill Requirements:</strong> Tasks require specific skill levels, and some may demand higher skill proficiency. The task list ensures that each core skill appears at least once, reflecting task diversity.</li>
+              <li><strong>Skill Mismatch Phenomenon:</strong> There is a 15% chance of the task lisk missing one required skill, simulating real-world skill mismatches between the skills possessed by agents and those demanded by tasks.</li>
+            </ul>         
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Skillhaven Town Overview -->
+
+<!-- Skill Description and Mapping -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Skill Description and Mapping</h2>
+        <div class="content has-text-justified">
+          <p>
+            To comprehensively describe the skills, each skill is broken down into six dimensions that influence an agent’s skill development and task performance:<br>
+            <ul>
+              <li><strong>Knowledge:</strong> Theoretical understanding and application of the skill.</li>
+              <li><strong>Active Cognition:</strong> Ability to quickly react and adapt to different scenarios.</li> 
+              <li><strong>Determination:</strong> Willpower to overcome difficulties and complete tasks.</li>
+              <li><strong>Affection:</strong> Emotional investment in tasks and its impact on satisfaction.</li>
+              <li><strong>Sensory Motor Abilities:</strong> Capability to perceive the environment and execute physical actions.</li>
+              <li><strong>Physical Strength:</strong> Physical ability required to perform physically demanding tasks.</li>
+            </ul>
+            
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Skill Description and Mapping -->
+
+<!-- Image carousel -->
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+       <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/Teaching_radar_chart.png" alt="Six dimensions radar chart of Teaching"/>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/Crafting_radar_chart.png" alt="Six dimensions radar chart of Crafting"/>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/Farming_radar_chart.png" alt="Six dimensions radar chart of Farming"/>
+     </div>
+     <div class="item">
+      <!-- Your image here -->
+      <img src="static/images/Medicine_radar_chart.png" alt="Six dimensions radar chart of Medicine"/>
+     </div>
+     <div class="item">
+      <!-- Your image here -->
+      <img src="static/images/Hunting_radar_chart.png" alt="Six dimensions radar chart of Hunting"/>
+     </div>
+  </div>
+</div>
+</div>
+</section>
+<!-- End image carousel -->
+
+<!-- Skill Description and Mapping -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <div class="content has-text-justified">
+          <p>
+            <h3 class="title is-4">Skill Experience Mapping</h3>
+            Skills are interrelated, and training in one skill can enhance related skills. This experience mapping is conducted by calculating the cosine similarity between skills and then applying a Gaussian function to emphasize the impact on the most closely related skills. This mapping accurately reflects the complementary and interactive nature of skills.
+            <img src="static/images/Skill training mapping.png" alt="Skill training mapping" style="display: block; margin: auto; width: 60%; margin-top: 30px;">
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Skill Description and Mapping -->
+
+<!-- Agent Personality and Skill Affinity -->
+<section class="section hero">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Agent Personality and Skill Affinity</h2>
+        <div class="content has-text-justified">
+          <p>
+            The personality traits of agents significantly influence their skill development and task selection. Based on the Five-Factor Model, agents are assigned the following traits:<br>
+            <ul>
+              <li><strong>Openness:</strong> Innovative/Curious vs. Consistent/Prudent</li>
+              <li><strong>Conscientiousness:</strong> Efficient/Organized vs. Indulgent/Negligent</li>
+              <li><strong>Extraversion:</strong> Outgoing/Energetic vs. Solitary/Reserved</li>
+              <li><strong>Agreeableness:</strong> Friendly/Compassionate vs. Critical/Selective</li>
+              <li><strong>Neuroticism:</strong> Sensitive/Nervous vs. Resilient/Confident</li>
+            </ul>
+            <h3 class="title is-4">Relationship Between Traits and Skills</h3>
+            The relationship between traits and skills is defined through a relational matrix, resulting in a Trait Influence Vector. By applying Softmax to this vector and the skill attributes, probability distributions are obtained. The Root Mean Square Deviation (RMSD) is then calculated, and by subtracting the RMSD from 1 and passing the result through a Gaussian function, the Skill Affinity Level is derived.
+            <img src="static/images/relational matrix of traits and skill.png" alt="Three Professions" style="display: block; margin: auto; width: 100%; margin-top: 30px;">
+            <img src="static/images/calculation of skill affinity level.png" alt="Three Professions" style="display: block; margin: auto; width: 100%; margin-top: 20px;">
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Agent Personality and Skill Affinity -->
+
+<!-- Development Strategy -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Development Strategy</h2>
+        <div class="content has-text-justified">
+          <p>
+            Agents adopt various strategies when selecting tasks and training to optimize skill development:<br>
+            <h3 class="title is-4">Task and Training Strategy</h3>
+            Agents make decisions based on training cost, skill affinity, and own skill experience points. If no suitable tasks are available, agents opt for training with the aim of minimizing training costs, enhancing affinity, or increasing existing skill experience points.
+            <h3 class="title is-4">Balanced Selection Mechanism</h3>
+            The selection mechanism employs a linear weighted scoring method:
+            <ul>
+              <li><strong>Training Cost:</strong> Lower costs result in higher scores.</li>
+              <li><strong>Affinity:</strong> Higher affinity yields higher scores.</li>
+              <li><strong>Skill Experience Points:</strong> Tasks that use skills with higher experience points score better.</li>
+            </ul>
+            To dynamically adjust strategy weights according to current conditions, a lightweight reinforcement learning model using Proximal Policy Optimization (PPO) is trained. PPO allows for real-time weight updates, simulating the intuitive decision-making mechanisms inherited from human ancestors, enabling agents to respond more effectively to changing task environments.
+            <img src="static/images/Balanced Selection Mechanism.png" alt="Balanced Selection Mechanism" style="display: block; margin: auto; width: 100%; margin-top: 20px;">
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Development Strategy -->
+
+<!-- Results -->
+<section class="section hero">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Results</h2>
+        <div class="content has-text-justified">
+          <p>
+            The simulation in Skillhaven Town demonstrates diverse paths of skill evolution among agents, highlighting the interactions between personality traits and skill development. The results indicate that an agent’s skill growth is influenced not only by direct training but also by the interrelationships among skills and task selection strategies. Through the dynamic adjustments provided by the PPO model, agents can flexibly adapt to different scenarios, simulating human-like patterns of skill development. This study offers a novel perspective on understanding the mechanisms of skill evolution and provides a theoretical basis for the design of future intelligent agent skill development systems.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Results -->
+
+<footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            © 2024 <a href="https://github.com/HouHei0416" target="_blank">HouHei0416</a>. All rights reserved. Unauthorized use, reproduction, or distribution of this content is prohibited without permission.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
